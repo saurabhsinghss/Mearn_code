@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mini_project_calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="outer_container">
+  <div class="container">
+   <!-- <input type="text" id="my_input"> -->
+    <div id="my_input"></div>
+   <div class="inner_container">
+    <button class="my_button"onclick="
+    display_value = '';
+    document.getElementById('my_input').innerHTML = display_value;">C</button>
+    <button class="my_button" onclick="
+    display_value += '1';
+    document.getElementById('my_input').innerHTML = display_value; ">1</button>
+    <button class="my_button"onclick="
+    display_value += '2';
+    document.getElementById('my_input').innerHTML = display_value;">2</button>
+    <button class="my_button"onclick="
+    display_value += '+';
+    document.getElementById('my_input').innerHTML = display_value;">+</button>
+    <button class="my_button"onclick="
+    display_value += '3';
+    document.getElementById('my_input').innerHTML = display_value;">3</button>
+    <button class="my_button"onclick="
+    display_value += '4';
+    document.getElementById('my_input').innerHTML = display_value;">4</button>
+    <button class="my_button"onclick="
+    display_value += '-';
+    document.getElementById('my_input').innerHTML = display_value;">-</button>
+    <button class="my_button"onclick="
+    display_value += '5';
+    document.getElementById('my_input').innerHTML = display_value;">5</button>
+    <button class="my_button"onclick="
+    display_value += '6';
+    document.getElementById('my_input').innerHTML = display_value;">6</button>
+    <button class="my_button"onclick="
+    display_value += '*';
+    document.getElementById('my_input').innerHTML = display_value;">*</button>
+    <button class="my_button"onclick="
+    display_value += '7';
+    document.getElementById('my_input').innerHTML = display_value;">7</button>
+    <button class="my_button"onclick="
+    display_value += '8';
+    document.getElementById('my_input').innerHTML = display_value;">8</button>
+    <button class="my_button"onclick="
+    display_value += '/';
+    document.getElementById('my_input').innerHTML = display_value;">/</button>
+    <button class="my_button"onclick="
+    display_value = eval(display_value);
+    document.getElementById('my_input').innerHTML = display_value;">=</button>
+    <button class="my_button"onclick="
+    display_value += '9';
+    document.getElementById('my_input').innerHTML = display_value;">9</button>
+    <button class="my_button"onclick="
+    display_value += '0';
+    document.getElementById('my_input').innerHTML = display_value;">0</button>
+    <button class="my_button"onclick="
+    display_value += '.';
+    document.getElementById('my_input').innerHTML = display_value;">.</button>
+   </div>
+  </div>
+  </div>
+
+
+  <script>
+    var display_value = '';
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>learning variable in css</title>
+  <style>
+    html{
+      --main-bg-color:rgb(240, 116, 20);
+       --main-box-color:rgb(9, 104, 22);
+      --main-text-color:#ffffff;
+      --border-color:#000000;
+    }
+    .container{
+      background-color: var(--main-bg-color);
+      display: flex;
+      padding: 15px;
+      border: solid 2px var(--border-color);
+      color: var(--main-text-color);
+    }
+    .box{
+      width: 50px;
+      height: 50px;
+      border: solid 2px black;
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--main-text-color);
+      background-color: var(--main-box-color);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    This is a box container
+    <div class="box box1">Box1</div>
+    <div class="box box2">Box2</div>
+    <div class="box box3">Box3</div>
+    <div class="box box4">Box4</div>
+  </div>
+</body>
+</html>

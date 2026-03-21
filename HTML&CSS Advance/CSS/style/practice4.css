@@ -1,0 +1,14 @@
+#my-div{
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+}
+#my-button{
+  padding: 10px 15px;
+  margin: 100px;
+  border-style: dotted;
+  border-color: red;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}

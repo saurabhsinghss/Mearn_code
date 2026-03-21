@@ -1,0 +1,25 @@
+.my_button{
+  background-color:rgb(16, 158, 16);
+  height: 48px;
+  width: 110px;
+  border: 3px solid black;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+}
+#button{
+  width: 140px;
+}
+
+.my_button:active{
+  background-color: pink;
+}
+
+.result{
+  height: 80px;
+  width: 250px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;
+}

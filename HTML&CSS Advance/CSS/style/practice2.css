@@ -1,0 +1,14 @@
+#div_1{
+  background-color: rgba(0,0,256,0.4);
+  color: rgba(234,256,0,0.8);
+}
+#div_2{
+  height:150px;
+  width: 200px;
+  /* background-image: url(../../images/image.png);
+  background-repeat:no-repeat; */
+  background:  url(../../images/image.png) no-repeat #ff0099;
+  background-size: contain;
+  
+  
+}

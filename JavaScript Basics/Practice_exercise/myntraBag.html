@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Myntra Bag</title>
+  <link rel="stylesheet" href="myntraBag.css">
+</head>
+<body>
+  <button onclick="add_to_bag()" id="add-to-bag">Add to Bag</button>
+  <button onclick="move_to_wishlist()" id="move-to-wishlist">MOVE TO WISHLIST</button>
+  <button onclick="add_saleitem()" id="add-to-saleitem">Add 1+1 sale item</button>
+
+  <h1 id="my_bag">Your Bag has 2 items</h1>
+
+  <script>
+    var items = 2;
+    function add_to_bag(){
+      document.getElementById('my_bag').innerHTML = "Your Bag has "+(++items) +" items"
+    }
+
+    function move_to_wishlist(){
+      document.getElementById('my_bag').innerHTML = "Your Bag has "+(--items) + " items"
+    }
+
+    function add_saleitem(){
+      document.getElementById('my_bag').innerHTML = "Your Bag has "+(items = items +2)+" items"
+    }
+  </script>
+</body>
+</html>

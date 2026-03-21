@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>First Time Executing JS</title>
+  <script>
+    console.log('Hello World');
+    // function click_me(){
+    //   console.log('Button Clicked');
+    // }
+
+    // function Change_me(){
+    //   document.getElementById('my_para').innerHTML = 'Honesty is the best policy.';
+    // }
+
+function Change_me(){
+      document.querySelector('#my_para').innerHTML = 'Honesty is the best policy.';
+    }
+
+
+    function style_me(){
+      document.getElementById('my_para').style.color = 'Blue';
+    }
+  </script>
+</head>
+<body>
+  <h1>Welcome to JS World</h1>
+  <p id="my_para">This is demo paragraph.</p>
+  <!-- <button onclick="click_me()">Click me</button> -->
+   <button onclick="Change_me()">change Me</button>
+   <button onclick="style_me()">Style_me</button>
+</body>
+</html>

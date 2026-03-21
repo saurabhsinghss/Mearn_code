@@ -1,0 +1,11 @@
+#box_1{
+  background-color: #8e9d70;
+  height: 100px;
+  width: 100px;
+}
+#image_bg{
+  background-image: url(../../images/image.png);
+  height: 200px;
+  width:200px;
+  background-repeat: no-repeat;
+}

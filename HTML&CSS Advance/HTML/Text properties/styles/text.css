@@ -1,0 +1,18 @@
+.my_text{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(236, 74, 101);
+  text-transform: uppercase;
+}
+
+.random-text{
+  line-height: 25px;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Meow Script", cursive;
+}
+#kg-link{
+  text-decoration: none;
+}

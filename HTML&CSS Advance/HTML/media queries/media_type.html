@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Media_type</title>
+  <style>
+    .screen{
+      display:block;
+      background-color: pink;
+    }
+    .print{
+      display: none;
+    }
+    @media print {
+      .screen{
+        display: none;
+      }
+      .print{
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="screen">
+    This text is visible on screen.
+  </div>
+  <div class="print">
+    This text is visible on print.
+  </div>
+</body>
+</html>
