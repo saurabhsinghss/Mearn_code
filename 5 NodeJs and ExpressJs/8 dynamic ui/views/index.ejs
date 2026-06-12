@@ -1,0 +1,19 @@
+<%- include('partials/head') %>
+</head>
+<body class="bg-gradient-to-r from-blue-50 to-indigo-50 min-h-screen">
+
+<%- include('partials/nav') %>
+
+  <main class="max-w-6xl mx-auto px-4">
+    <div class="text-center mt-12">
+    <h1 class="text-5xl font-bold text-blue-600 mb-8">Welcome to Hamara airbnb</h1>
+
+    <ul class="list-disc list-inside text-left max-w-xl mx-auto">
+      <% homes.forEach(home => { %>
+        <li><%= home.houseName %></li>
+      <% }); %>
+    </ul>
+  </div>
+  </main>
+</body>
+</html>
